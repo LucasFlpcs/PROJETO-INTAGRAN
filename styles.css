@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.caixa-imagens{
+    position: relative;
+}
+.insta-logo{
+    margin-bottom: 20px;
+
+}
+
+.imagem-celular {
+    width: 480px;
+}
+
+.img-celular{
+    height: 570px;
+    position: absolute;
+    left: 158px;
+    top: 22px;
+    transition: opacity 2s ease-in-out;
+}
+
+.caixa-form{
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    padding: 50px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.link-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border: 1px solid #DBDBDB;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logos-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 10px;
+}
+
+.ios-img{
+    width: 150px;
+    border: 1px solid #DBDBDB;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.google-img{
+    width: 150px;    
+    border: 1px solid #DBDBDB;
+    padding: 5px;
+    cursor: pointer;
+    
+
+}
+
+.login-facebook{
+    color: #385185;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.cadastro{
+    color: #385185;
+    font-size: 14px;
+    font-weight: bold;
+    
+
+}
+
+.esqueceu-senha{
+    color: #385185;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.obtenha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+input{
+    height: 36px;
+    margin-top: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: #262626;
+}
+
+button{
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
